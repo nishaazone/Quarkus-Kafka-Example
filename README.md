@@ -18,4 +18,5 @@ This is an example project that demonstrates interaction between two microservic
 6. Start Kafka server - Open another private command prompt and type in the following command - bin\windows\kafka-server-start.bat config\server.properties and press ENTER.
 7. To create a Kafka topic, open another private command prompt and type in the following command - bin\windows\kafka-topics.bat --create --topic level --bootstrap-server localhost:9092 and press ENTER. 
 8. Run both the microservices "code-with-micro-one" and "code-with-micro-two" simultaneoulsy by typing "mvn quarkus:dev" on terminal.
-9. Open POSTMAN and using POST method for URL -> http://localhost:8080/send and request body -> {"Nisha"} test the Services.
+9. Open POSTMAN and using POST method for URL -> http://localhost:8080/send and request body -> {"Hello World"} to test the Service.
+10. Open "code-with-micro-two" terminal to view the received message from kafka topic "level" sent from POSTMAN to micro-service "code-with-micro-one".
