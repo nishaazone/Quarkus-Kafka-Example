@@ -9,9 +9,9 @@ This is an example project that demonstrates interaction between two microservic
 
 ## Step-by-Step Guide
 1. Download apache maven from -> https://maven.apache.org/download.cgi. Set the environment variable for apache maven.
-```
+
    ![image](https://github.com/user-attachments/assets/f9d4c15f-d855-41be-adff-8cd2002002b6)
-```
+
 3. Download Kafka from -> https://kafka.apache.org/quickstart
 4. Extract files in C: drive, go to project where bin and config folders are located. (C:\kafka\kafka)
 5. Start Zookeeper server - Open private command prompt for the Kafka project type in the following command - bin\windows\zookeeper-server-start.bat config\zookeeper.properties and press ENTER.
