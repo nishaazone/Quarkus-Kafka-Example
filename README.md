@@ -7,6 +7,10 @@ This is an example project that demonstrates interaction between two microservic
 3. **Kafka Version**: Kafka 2.13-3.8.0.tgz
 4. **Apache Maven**: apache-maven-3.9.8
 
+## Microservices
+1. Microservice 1 -> code-with-micro-one
+2. Microservice 2 -> code-with-micro-two
+
 ## Step-by-Step Guide
 1. Download apache maven from -> https://maven.apache.org/download.cgi. Set the environment variable for apache maven.
 
